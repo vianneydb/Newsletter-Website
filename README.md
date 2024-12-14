@@ -7,11 +7,12 @@ Web-based platform designed to present newsletters, articles, and updates relate
 - **index.html**: The main file of the project that structures the webpage content.
 - **contact.html**: Contact form not linked to any database.
 - **yop.html**: Brief presentation about me.
-- **annotated_bibl.html**: C.
-- **community_Interview.html**: C.
-- **genre_analysis.html**: A.
-- **report.html**: R.
-- **references.html**: R.
+- **annotated_bibl.html**: Different sources to reffer the main topic "Why do love breakups hurt so much?".
+- **community_Interview.html**: Analysis and research for the lack of women in stem specifically at The university of Texas at El Paso (2022 data).
+- **genre_analysis.html**: Analysis of the potterhead community.
+- **memo.html**: Research about lack of transortation in The university of Texas at El Paso.
+- **report.html**: Brief description of the website.
+- **references.html**: All bibiography.
 
 ### CSS
 **style.css**: Custom stylesheet.
@@ -35,12 +36,12 @@ Use the following steps:
 
 ## Contribute and customize
 If you want to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request.
-1. Logo and Images: Replace the placeholder images in the images/ directory.
-2. Font: Modify the font-family property in **style.css**.
-3. Articles: Update the content and links in **index.html** to reflect new articles.
+1. **Logo and Images**: Replace the placeholder images in the images/ directory.
+2. **Font**: Modify the font-family property in **style.css**.
+3. **Articles**: Update the content and links in **index.html** to reflect new articles.
 
 
 **Author**: Vianney Diaz.
 
-**Date**: March 2024.
+**Date**: May 2024.
 
