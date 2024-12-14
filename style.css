@@ -1,0 +1,122 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.blog-header-logo {
+  font-family: 'Tu Fuente Deseada', sans-serif; /* Reemplaza 'Tu Fuente Deseada' con el nombre de la fuente que quieres usar */
+}
+
+  
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+  
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+  
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+  
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+  
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+  
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.blog-footer {
+  padding: 1.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+
+footer {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+nav.blog-pagination{
+  padding: 1rem 0;
+}
+
+/* CSS para dispositivos con pantalla grande */
+@media (min-width: 1200px) {
+  .col-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
+/* CSS para dispositivos con pantalla mediana */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .col-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .blog-header .row {
+    flex-wrap: wrap;
+  }
+
+  .blog-header .btn {
+    margin-top: 1rem;
+  }
+}
+
+/* CSS para dispositivos con pantalla pequeña */
+@media (max-width: 768px) {
+
+  .col-4.d-flex {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.btn.btn-sm.btn-outline-secondary {
+    margin-top: 1rem;
+    margin-right: 0;
+}
+
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+  .nav{
+    margin-inline: 0px;
+    font-size: 10px;
+    padding: 1em;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+  }
+
+}
