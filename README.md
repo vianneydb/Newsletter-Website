@@ -22,6 +22,10 @@ Web-based platform designed to present newsletters, articles, and updates relate
 - **jQuery**: Included but not utilized in the current project.
 
 ## Execution
+### Online
+Go to [the website](https://vianneydb.github.io/Newsletter-Website/index.html) to access it in your browser.
+
+### Local files
 Use the following steps:
 
 1. Clone the repository:
